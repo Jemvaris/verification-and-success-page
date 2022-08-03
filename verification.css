@@ -1,0 +1,182 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+/*
+    Typography starts here
+*/
+.text-sm{
+    font-size: 15px;
+
+}
+.regular-text{
+    font-size: 20px;
+    color: #111010;
+    padding-top: 2.5em ;
+}
+
+.text-lg{
+    font-size: 80px;
+    padding-top: .5em;
+    color:#8bc34a
+}
+
+p{
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #111010;
+
+}
+/*
+    Typography ends here
+*/
+.content{
+    margin: 1em auto;
+    width: 30%;
+    height: 50%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8em;
+}
+.icon{
+    padding: 0 0.8em;
+    
+}
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 80%;
+        margin: 1em auto;
+        height: 50%;
+    }
+    .text-lg{
+        font-size: 35px;
+    }
+    
+}
+@media only screen and (min-width:768px){
+    .content{
+        width: 50%;
+        margin: 1.5em auto;
+        height: 50%;
+    }
+}
+@media only screen and (min-width:1200px){
+    .content{
+        width: 30%;
+        margin: 1.5em auto;
+        height: auto;
+    }
+    .btn{
+        width: 14em;
+    }
+}
+
+
+
+.main-verification-input {
+    background: #fff;
+    padding: 0 120px 0 0;
+    border-radius: 1px;
+    margin-top: 6px;
+}
+
+.fl-wrap { /*wrap fpr verification input*/
+    float: left;
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+
+.main-verification-input-item {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid #eee;
+    height: 50px;
+    position: relative
+}
+
+
+
+.main-verification-input-item input {
+    float: left;
+    border: #111010;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px
+}
+
+.main-verification-button {
+    background: #8bc34a
+}
+
+.main-verification-button {
+    position: absolute;
+    right: 0px;
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    top: 0;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer
+}
+
+
+a{
+    text-decoration: none !important;
+    color: #38057a;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+  /* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  /* Instagram */
+.fa-instagram {
+    background: #be127d;
+    color: white;
+}
+
+  /* Limkedin */
+.fa-linkedin {
+    background: #3d1daf;
+    color: white;
+}
+
