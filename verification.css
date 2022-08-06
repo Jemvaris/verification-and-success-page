@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: aliceblue;
+    background-color: rgb(192, 211, 228);
 }
 /*
     Typography starts here
@@ -24,7 +24,8 @@ body{
 .text-lg{
     font-size: 80px;
     padding-top: .5em;
-    color:#8bc34a
+    color:#82c03b;
+    font-weight: bold
 }
 
 p{
